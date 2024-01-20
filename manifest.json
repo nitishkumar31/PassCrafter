@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "PassCrafter",
+  "description": "Elevate your security with PASSCRAFTER, the artisanal craftsman of personalized passkeys, ensuring a unique blend of strength and simplicity.",
+  "version": "0.0.1",
+  "author": "Nitish Kumar Samal",
+  "action": {
+    "default_title": "PassCrafter",
+    "default_popup": "./src/index.html",
+    "default_icon": {
+      "16": "./src/assets/logo-64.png"
+    }
+  },
+  "icons": {
+    "128": "./src/assets/logo-64.png"
+  }
+}
