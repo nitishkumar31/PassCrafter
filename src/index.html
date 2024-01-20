@@ -8,6 +8,72 @@
     <title>PassCrafter</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="input-container">
+          <h1>PassCrafter</h1>
+  
+          <div class="length-container">
+            <p>Password Length</p>
+            <p data-lengthDisplay></p>
+          </div>
+          <input
+            type="range"
+            min="1"
+            max="20"
+            step="1"
+            class="slider"
+            data-lengthSlider
+          />
+          <div class="checkboxes">
+            <div class="check">
+              <input type="checkbox" id="uppercase" />
+              <label for="uppercase">Uppercase Letters</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="lowercase" />
+              <label for="lowercase">Lowercase Letters</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="numbers" />
+              <label for="numbers">Numbers</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="symbols" />
+              <label for="symbols">Symbols</label>
+            </div>
+          </div>
+  
+          <div class="strength-container">
+            <p>Strength</p>
+            <div class="indicator" data-indicator></div>
+          </div>
+          <button class="generateBtn">
+            Generate
+            <div class="icons">
+              <img
+                class="refresh"
+                src="assets/refresh.svg"
+                alt=""
+                width="24"
+                height="24"
+              />
+            </div>
+          </button>
+        </div>
+  
+        <div class="display-container">
+          <input
+            readonly
+            placeholder="Password"
+            class="display"
+            data-passwordDisplay
+          />
+          <button data-copy>
+            <span class="copy-tooltip" data-copyMsg></span>
+            <img src="./assets/copy.svg" alt="copy" width="24" height="24" />
+          </button>
+        </div>
+      </div>
+
 </body>
 </html>
