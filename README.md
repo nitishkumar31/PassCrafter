@@ -11,6 +11,7 @@ A versatile and secure password generator extension for browsers, offering robus
 <hr/>
 
 #### 🚨MAKE SURE TO KEEP YOUR EXTENSION UP TO DATE, WITH A ⭐️ ON THIS REPO🚨
+
 <hr/>
 
 ## Features
@@ -24,7 +25,7 @@ A versatile and secure password generator extension for browsers, offering robus
 
 ### Step 1: Download and Unzip
 
-1. Download the latest release [here](https://github.com/nitishkumar31/PassCrafter/releases/latest).
+1. Download the .zip file of latest release [here](https://github.com/nitishkumar31/PassCrafter/releases/latest).
 2. Unzip the downloaded file.
 
 ### Step 2: Enable Developer Mode
@@ -45,7 +46,6 @@ A versatile and secure password generator extension for browsers, offering robus
 
 ![Select Folder](https://github.com/nitishkumar31/PassCrafter/blob/main/src/assets/forRepo/file.png)
 
-
 ## Usage
 
 1. Click on the PassCrafter icon from Extension tool of your Browser Toolbar.
@@ -59,6 +59,10 @@ A versatile and secure password generator extension for browsers, offering robus
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Feedback
+
+I'd love to hear your feedback on this release. If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/nitishkumar31/PassCrafter/issues).
 
 ## Contact
 
